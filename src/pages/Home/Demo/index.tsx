@@ -42,11 +42,11 @@ const Demo = () => {
     },
     mobile: () => {
       return (
-        <div className=" flex max-h-content_h animate-fade_in">
-          <div className=" m-auto flex w-auto flex-row">
+        <div className="flex max-h-content_h animate-fade_in m-4">
+          <div className=" m-auto flex w-auto flex-row space-x-6">
             <div className="m-auto flex">
               <div className="w-auto space-y-6 text-[#414141]">
-                <span className=" flex w-[60%] text-[44px] font-semibold leading-tight tracking-tight">
+                <span className=" flex w-[75%] text-3xl font-semibold leading-tight tracking-tight">
                   Our new website is on its way.
                 </span>
                 <div className="space-y-3 text-lg">
@@ -61,7 +61,7 @@ const Demo = () => {
                   />
                 </div>
                 <div>
-                  <button className="h-9 w-1/4 bg-[#414141] text-sm text-white">
+                  <button className="h-9 w-full bg-[#414141] text-sm text-white">
                     Notify Me
                   </button>
                 </div>
