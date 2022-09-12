@@ -43,9 +43,9 @@ const Demo = () => {
     mobile: () => {
       return (
         <div className="flex max-h-content_h animate-fade_in m-4">
-          <div className=" m-auto flex w-auto flex-row space-x-6">
-            <div className="m-auto flex">
-              <div className="w-auto space-y-6 text-[#414141]">
+          <div className=" m-auto flex w-auto flex-row ">
+            <div className="m-auto flex ">
+              <div className="w-auto space-y-6 text-[#414141] ">
                 <span className=" flex w-[75%] text-3xl font-semibold leading-tight tracking-tight">
                   Our new website is on its way.
                 </span>
@@ -56,7 +56,7 @@ const Demo = () => {
                 <div className="space-y-4">
                   <div className="text-sm">Enter your email here*</div>
                   <input
-                    className="border-b border-b-[#414141] outline-0"
+                    className="border-b w-3/4 border-b-[#414141] outline-0"
                     placeholder="email"
                   />
                 </div>
@@ -69,7 +69,7 @@ const Demo = () => {
             </div>
 
             <img
-              className="max-h-content_h w-1/2"
+              className="max-h-content_h w-1/2 pl-6"
               src="https://static.wixstatic.com/media/45d10e_187e077f527448b3afe5d2fc52a9d4f8~mv2_d_2890_3648_s_4_2.jpg/v1/fill/w_490,h_1079,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/45d10e_187e077f527448b3afe5d2fc52a9d4f8~mv2_d_2890_3648_s_4_2.jpg"
             />
           </div>
